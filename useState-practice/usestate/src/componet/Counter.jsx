@@ -18,6 +18,7 @@ function add() {
 
   return (
     <div>
+      <h4>This is a simple counter, adds count when plus is clicked and decrese when minus is clicked </h4>
       <button onClick={minus} style={{backgroundColor:'red'}}>-</button>  
         <span > {count} </span>
         
